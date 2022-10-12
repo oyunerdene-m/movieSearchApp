@@ -2,10 +2,12 @@ export default function SearchMovies() {
 	return (
 		<form className="form">
 			<label className="label" htmlFor="query">
-				Movie name
+				Movie Name
 			</label>
-			<input type="text" name="query" placeholder="i.e. Jurassic Park" />
-			<button className="button">Search</button>
+			<input className="input" type="text" name="query" placeholder="i.e. Jurassic Park" />
+			<button className="button" type="submit">
+				Search
+			</button>
 		</form>
 	);
 }
